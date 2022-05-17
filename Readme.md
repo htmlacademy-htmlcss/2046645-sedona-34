@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Кабатов](https://up.htmlacademy.ru/htmlcss/34/user/2046645).
-* Наставник: `Неизвестно`.
+* Наставник: [Наталья Налимова](https://up.htmlacademy.ru/profession/frontender/14/htmlcss/34/user/16507).
 
 ---
 
