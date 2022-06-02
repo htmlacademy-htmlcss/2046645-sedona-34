@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/pt-sans-400.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/pt-sans-700.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/pt-sans-400.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #fbf7fb;
+    color: #242424;
+}
+.button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.page-header {
+    background: #ffffff;
+    color: #000000;
+}
+.navigation-link {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.main-index {
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url(../images/index-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.index-benefits {
+font-style: bold;
+line-height: 36px;
+font-size: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+.advantages-description {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: none;
+    color: #333333;
+}
+
+.advantages-list {
+    text-align: center;
+    font-style: normal;
+}
+.advantages-title {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.advantages-description {
+font-size: 18px;
+line-height: 21px;
+font-weight: 400;
+}
+.search {
+    text-align: center;
+}
+.search-heading {
+    font-style: bold;
+    font-size: 30px;
+    line-height: 36px;
+    display: block;
+    text-transform: uppercase;
+}
+.hotels-description {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+.subscribe {
+    text-align: center;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.subscription-title {
+    font-style: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+.subscription {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+}
+.page-footer {
+    background-color: #ffffff;
+    color: #000000;
+}
+.page-footer .contacts-phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.hotel-filter {
+    background-image: url(../images/filter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.inner-header-title {
+    font-size: 60px;
+    line-height: 78px;
+    text-transform: uppercase;
+}
+.breadcrumbs {
+    color: #ffffff;
+}
+.breadcrumbs-link {
+color: #ffffff;
+}
+.hotels-card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.hotels-card-price {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+.raiting {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+.hotels-card-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #000000;
+}
+.subscribe-catalog {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}
