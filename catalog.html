@@ -7,46 +7,41 @@
   <link rel="stylesheet" href="styles/styles.css">
  </head>
   <body>
-  <header class="page-header">
-    <nav class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="index.html"><img src="Images/logo-sedona.svg" width="139" height="70" alt="Логотип Седона"></a> 
-         </li>
-        <li class="navigation-item">
-         <a class="navigation-link" href="index.html">Главная</a> 
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">О Седоне</a> 
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="catalog.html">Гостиницы</a> 
+    <header class="page-header">
+      <nav class="navigation">
+        <a class="navigation-link">
+          <img src="Images/logo-sedona.svg" width="139" height="70" alt="Логотип Седона"></a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link">Главная</a>
           </li>
-      </ul>
-      <ul class="navigation-list navigation-user" >
-        <li class="navigation-item">
-         <a class="navigation-link" href="#">
-           <span class="visually-hidden">
-             Поиск
-             </span>
-           </a> 
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visually-hidden">
-              Избранное
-              </span>
-            </a> 
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visually-hidden">
-              Хочу сюда!
-              </span>
-            </a> 
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">О Седоне</a>
           </li>
-      </ul>
-    </nav>  
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Избранное
+              </span></a>
+              <span class="number"><sup>12</sup></span>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Хочу сюда!</a>
+          </li>
+        </ul>
+      </nav>
     </header>
   <main class="main-inner">
     <div class="hotel-filter">
@@ -125,6 +120,7 @@
         <button class="button" type="submit">Применить</button>
         <button type="reset" value="reset">Сбросить</button>
       </form>
+    </div>
     </section>
     <section class="catalog">
       <h2 class="catalog-title">Найдено гостиниц: 38</h2>
@@ -142,7 +138,6 @@
       <a class="button" href="#">
         <span class="visually-hidden">Показать список</span>
       </a>
-    </div>
       <ul class="hotels-list">
         <li class="hotels-card">
           <a class="hotels-card-link" href="#">
@@ -150,8 +145,8 @@
             <h3 class="hotels-card-title">Amara Resort & Spa</h3>
           </a>
           <b class="hotels-card-price">Гостиница от 4000 ₽</b>
-          <a class="hotels-card-button button" href="#">подробнее</a>
-          <a class="hotels-card-button button" href="#">в избранное</a>
+          <a class="hotels-detailed button" href="#">подробнее</a>
+          <a class="hotels-favourites button" href="#">в избранное</a>
           <div class="hotels-stars-four">
             <span class="visually-hidden">Звёзды</span>
             <span class="rating">Рейтинг: 8,5</span>
@@ -163,8 +158,8 @@
             <h3 class="hotels-card-title">Villas at Poco Diablo</h3>
           </a>
           <b class="hotels-card-price">Гостиница от 5000 ₽</b>
-          <a class="hotels-card-button button" href="#">подробнее</a>
-          <a class="hotels-card-button button" href="#">в избранном</a>
+          <a class="hotels-detailed button" href="#">подробнее</a>
+          <a class="hotels-added button" href="#">в избранном</a>
           <div class="hotels-stars-four">
             <span class="visually-hidden">Звёзды</span>
             <span class="rating">Рейтинг: 9,2</span>
@@ -176,8 +171,8 @@
             <h3 class="hotels-card-title">Desert Quail Inn</h3>
           </a>
           <b class="hotels-card-price">Гостиница от 2500 ₽</b>
-          <a class="hotels-card-button button" href="#">подробнее</a>
-          <a class="hotels-card-button button" href="#">в избранное</a>
+          <a class="hotels-detailed button" href="#">подробнее</a>
+          <a class="hotels-favourites button" href="#">в избранное</a>
           <div class="hotels-stars-three">
             <span class="visually-hidden">Звёзды</span>
             <span class="rating">Рейтинг: 6,9</span>
@@ -189,8 +184,8 @@
             <h3 class="hotels-card-title">GreenTree Inn</h3>
           </a>
           <b class="hotels-card-price">Гостиница от 1500 ₽</b>
-          <a class="hotels-card-button button" href="#">подробнее</a>
-          <a class="hotels-card-button button" href="#">в избранное</a>
+          <a class="hotels-detailed button" href="#">подробнее</a>
+          <a class="hotels-favourites button" href="#">в избранное</a>
           <div class="hotels-stars-two">
             <span class="visually-hidden">Звёзды</span>
             <span class="rating">Рейтинг: 5,0</span>
@@ -224,12 +219,12 @@
         <option value="expensive">8</option>
       </select>
     </section>
-    <section class="subscribe-catalog">
+    <section class="subscription-catalog">
       <h2 class="subscription-titel">Подпишитесь на рассылку</h2>
-          <p class="subscription">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <p class="subscription-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru" method="post">
             <input type="email" name="email" placeholder="Ваш email" required>
-            <button class="button" type="submit">ПОДПИСАТЬСЯ
+            <button class="subscription-catalog-button" type="submit">ПОДПИСАТЬСЯ
             </button>
           </form>
     </section>
