@@ -10,7 +10,7 @@
     <div class="page-container">
     <header class="page-header">
       <nav class="navigation">
-        <a class="navigation-link">
+        <a class="navigation-logo">
           <img src="Images/logo-sedona.svg" width="139" height="70" alt="Логотип Седона"></a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -35,11 +35,12 @@
             <a class="navigation-link" href="#">
               <span class="visually-hidden">
                 Избранное
-              </span></a>
+              </span>
               <sup class="number">12</sup>
+            </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда!</a>
+            <a class="navigation-hotels" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -61,7 +62,7 @@
     <section class="catalog-hotels">
       <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
       <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-        <fieldset class="catalog-filter-group">
+        <fieldset class="catalog-filter-infrastructure">
           <legend class="catalog-filter-title">Инфраструктура:</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
@@ -87,7 +88,7 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="catalog-filter-group">
+        <fieldset class="catalog-filter-housing">
           <legend class="catalog-filter-title">Тип жилья:</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
@@ -118,12 +119,15 @@
             <label>от<input type="text" value="0"></label>
             <label>до<input type="text" value="9000"></label>
           </fieldset>
+          <div class="calculation-button">
         <button class="button-click" type="submit">Применить</button>
         <button class="reset" value="reset">Сбросить</button>
+          </div>
       </form>
     </div>
     </section>
     <section class="catalog">
+      <div class="sorting-container">
       <h2 class="catalog-title">Найдено гостиниц: 38</h2>
       <select class="select-control-hotel" aria-label="Сортировка">
         <option value="popular">Сначала дешёвые</option>
@@ -139,6 +143,7 @@
       <a class="button" href="#">
         <span class="visually-hidden">Показать список</span>
       </a>
+      </div>
       <ul class="hotels-list">
         <li class="hotels-card">
           <a class="hotels-card-link" href="#">
@@ -193,6 +198,7 @@
           </div>
         </li>
       </ul>
+      <div class="pagination-container">
       <ul class="pagination">
         <li class="pagination-item">
           <a class="pagination-link pagination-current">1</a>
@@ -219,6 +225,7 @@
         <option value="cheap">6</option>
         <option value="expensive">8</option>
       </select>
+      </div>
     </section>
     <section class="subscription-catalog">
       <h2 class="subscription-titel">Подпишитесь на рассылку</h2>
@@ -239,16 +246,19 @@
          <a class="button" href=" https://vk.com/htmlacademy">
            <span class="visually-hidden">ВКонтакте</span>
          </a>
+         <img class="footer-social-vk" src="images/social/social-vk.svg" width="24" height="14">
        </li>
        <li class="footer-social-item">
         <a class="button" href=" https://t.me/htmlacademy">
           <span class="visually-hidden">Телеграм</span>
         </a>
+        <img class="footer-social-telegram" src="images/social/social-telegram.svg" width="18" height="16">
       </li>
       <li class="footer-social-item">
         <a class="button" href=" https://www.youtube.com/user/htmlacademyru">
           <span class="visually-hidden">Ютуб</span>
         </a>
+        <img class="footer-social-youtube" src="images/social/social-youtube.svg" width="22" height="17">
       </li>
      </ul> 
     </section>
