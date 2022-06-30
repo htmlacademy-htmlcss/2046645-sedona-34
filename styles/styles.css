@@ -46,28 +46,30 @@ body {
 .page-header {
     background: #ffffff;
     color: #000000;
-
 }
 .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    height: 65px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 .navigation-logo {
-    display: block;
-    margin-bottom: -5px;
-   padding-left: 70px;
+   display: block;
+   height: 70px;
+   position: relative;
 }
 .navigation-list {
     width: 390px;
+    margin: 0 0 0 30px;
     padding: 0;
-    margin: 0;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 }
 .navigation-user {
     width: 263px;
-    margin-left: auto;
+    margin-left: 237px;
     align-items: center;
 }
 
@@ -84,6 +86,24 @@ body {
     text-decoration: none;
 }
 
+
+.navigation-icon {
+    display: block;
+    width: 19px;
+    height: 19px;
+    padding: 24px 12px;
+    align-items: center;
+    
+}
+.navigation-icon-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    width: 84px;
+    height: 66px;
+}
+
 .navigation-user .navigation-link {
     min-height: 18px;
     min-width: 18px;
@@ -93,8 +113,11 @@ body {
     font-size: 10px;
     line-height: 13px;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     background-color: #7DB54F;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
 .navigation-hotels {
     font-weight: 700;
@@ -105,12 +128,14 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+    width: 130px;
+    height: 20px;
     margin: 0;
     padding: 9px 15px 8px;
     min-width: 160px;
-    margin-bottom: 14px;
-    margin-right: 14px;
+    border-radius: 4px;
 }
+
 .main-container {
     flex-grow: 1;
 }
@@ -646,6 +671,7 @@ body {
     background-color: #756157;
     text-decoration: none;
     text-transform: uppercase;
+    padding-top: 9px;
 }
 .hotels-favourites {
     font-style: normal;
@@ -657,6 +683,7 @@ body {
     background-color: #82B3D3;
     text-decoration: none;
     text-transform: uppercase;
+    padding-top: 9px;
 }
 .hotels-added {
     font-style: normal;
@@ -668,6 +695,7 @@ body {
     background-color: #7DB54F;
     text-decoration: none;
     text-transform: uppercase;
+    padding-top: 9px;
 }
 .rating {
     font-weight: 400;
