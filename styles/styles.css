@@ -723,6 +723,10 @@ body {
 .catalog-filter-title-range {
     padding: 0;
     margin-bottom: 34px;
+    min-width: 116px;
+    min-height: 26px;
+    font-size: 20px;
+    padding-top: 2px;
 }
 .range-wrapper-inputs {
     display: flex;
@@ -886,6 +890,7 @@ body {
     position: relative;
     display: block;
     padding-left: 39px;
+    cursor: pointer;
 }
 .control-mark {
     position: absolute;
@@ -990,8 +995,9 @@ body {
     background: transparent;
     border: none;
     color: #FFFFFF;
-    padding: 0;
+    padding: 3px 5px;
     margin-left: 48px;
+    cursor: pointer;
 }
 
 .control-input-reset:hover {
@@ -1001,6 +1007,7 @@ body {
 .control-input-reset:focus {
     outline: 3px solid #83B3D3;
     color: #FFFFFF;
+    border-radius: 4px;
 }
 
 .control-input-reset:active {
@@ -1024,6 +1031,7 @@ body {
     background-image: url(../images/arrow-down.svg);
     background-repeat: no-repeat;
     background-position: right 20px center;
+    cursor: pointer;
 }
 .select-control-hotel:hover,
 .select-control-hotel:focus {
@@ -1312,6 +1320,20 @@ body {
     background-repeat: no-repeat;
     background-position: right 20px center;
     margin-top: 5px;
+    cursor: pointer;
+}
+.select-control:hover,
+.select-control:focus {
+    border: 2px solid #68A2CA;
+    outline: none;
+}
+
+.select-control:active {
+    border: 2px solid #3F5E72;
+}
+
+.select-control:disabled {
+    opacity: 0.3;
 }
 .subscription-catalog {
     background-color: #ffffff;
@@ -1566,10 +1588,18 @@ body {
     font-family: "PT Sans", sans-serif;
     border: none;
 }
-
+.modal-input-date:hover {
+    background-color: #E6E6E6;
+}
+.modal-input-date:focus {
+    outline: 3px solid #83B3D3;
+}
+.modal-input-date:active {
+    background-color: #FFFFFF;
+    outline: 2px solid #000000;
+}
 .modal-input-date::placeholder{
     color: #000000;
-    
 }
 
 .modal-input-number {
