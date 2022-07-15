@@ -945,7 +945,7 @@ body {
 
 .toggle-min {
     top: -8px;
-    left: 0px;
+    left: 0;
 }
 
 .toggle-max {
@@ -1721,7 +1721,6 @@ body {
     font-size: 18px;
     line-height: 21px;
     font-family: "PT Sans", sans-serif;
-    border: none;
 }
 
 .modal-input-date:hover {
