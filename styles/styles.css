@@ -2,14 +2,14 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -471,7 +471,7 @@ body {
     line-height: 26px;
     text-align: center;
     color: #333333;
-    margin: 0 304px 56px;
+    margin: 0 312px 56px 297px;
 }
 
 .search-link {
@@ -557,7 +557,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     margin: 0;
-    padding: 96px 398px 29px;
+    padding: 94px 398px 29px;
 }
 
 .subscription-info {
@@ -565,7 +565,7 @@ body {
     line-height: 26px;
     font-weight: 400;
     margin: 0;
-    padding: 0 362px 46px;
+    padding: 0 364px 46px 369px;
 }
 
 .subscription-form {
@@ -1800,7 +1800,7 @@ body {
     border: none;
     width: 25px;
     height: 25px;
-    background-image: url("images/modal/info.svg");
+    background-image: url("../images/modal/info.svg");
     background-repeat: no-repeat;
     background-color: #83B3D3;
     background-position: center;
@@ -1842,8 +1842,8 @@ body {
 }
 
 .tooltip-text:after {
-    content: '';
-    background-image: url("images/modal/arrow-tooltip.svg");
+    content: "";
+    background-image: url("../images/modal/arrow-tooltip.svg");
     width: 19px;
     height: 9px;
     position: absolute;
